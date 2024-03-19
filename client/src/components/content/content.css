@@ -1,0 +1,58 @@
+.content{
+  margin-top:50px;
+  width: 100%;
+  position:relative;
+  
+  
+
+  .listTitle{
+    padding-left: 50px;
+    font-size: 30px;
+    color: rgb(17, 80, 87);
+    font-weight: 700;
+
+  }
+
+  .wrapper{
+    position: relative;
+    
+   
+    .container{
+      display: flex;
+      margin-left: 50px;  
+      width: max-content;
+      margin-top: 10px;
+      transform: translateX(0px);
+      transition: all 1s ease;
+    }
+
+    .sliderArrow{
+      width: 40px;
+      height: 30px; 
+      background-color:  white;
+      padding: 10px 0px;
+      color: black;
+      position: absolute;
+      z-index: 99;
+      top: 0;
+      bottom: 0;
+      margin: auto;
+      cursor: pointer;
+      border-radius: 25px;
+    
+      &.left{
+        left:20px;
+        padding-right: 10px;
+        padding-left: 5px;
+      }
+
+      &.right{
+        right:20px;
+        padding-left: 10px;
+        padding-right: 5px;
+      } 
+     
+    }
+    
+  }
+}

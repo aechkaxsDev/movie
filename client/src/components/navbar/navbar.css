@@ -1,0 +1,99 @@
+.navbar {
+  width: 100%;
+  color: white;
+  font-size: 14px;
+  padding:0;
+  position: fixed;
+  top: 0;
+  z-index: 550;
+  background: linear-gradient(to top, transparent 0%, rgb(17, 122, 101, 0.3)50%);
+  
+  &.scrolled{
+    background-color: var(--main-color);
+  }
+
+    .container{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding: 0 50px;
+        cursor: pointer;
+
+        .logo{
+          padding-top: 10px;
+          padding-bottom: 10px;
+          height: 55px;
+          margin-left: none;
+          z-index: 999;
+        }
+
+        .left{
+
+            .menu{
+              height: 30px;
+              width: auto;
+              margin-right: 20px;
+            }
+          display: flex;
+          align-items: center;
+            .search{
+              margin-left: 193px;
+              background-color: white;
+              color: black;
+              height: 20px;
+              border: none;
+              width: 30px;
+              padding: 10px;
+              border-radius: 4px;
+              
+              
+            }
+            .input{
+              height: 38px;
+              border: none;
+              outline: none;
+              font-size: 16px;
+              width: 550px;
+              border-radius: 4px;
+              margin-left: -10px;
+             
+            }
+        }
+        .right{
+          height: 50px;
+          display: flex;
+          align-items: center;
+          justify-content: space-between;
+          
+
+          .profile{
+              position: relative;
+              display: flex;
+              justify-content: space-between;
+              align-items: flex-end;
+             
+            svg{
+             
+              
+            }
+            
+
+            .login{
+             margin-top: 5px;
+             cursor: pointer;
+             background: transparent;
+             border: none;
+             color: white;
+             padding: 2.5px;
+             font-size: 15px;
+             
+
+            }
+           
+            
+
+          }
+        }
+    }
+
+}

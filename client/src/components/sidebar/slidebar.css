@@ -1,0 +1,25 @@
+.slidebar{
+  height: 100%;
+  width: 287px;
+  position: fixed;
+  z-index: 10;
+  top: 75px;
+  left: 0;
+  background-color: #f6f2f4;
+  overflow-x: hidden;
+  padding-top: 20px;
+  transform: translateX(0px);
+  transition: all 1s ease;
+  
+  
+  color: rgb(10, 2, 2);
+  .sidebar{
+    top: 50px;
+    position: absolute;
+    background-color: rgb(253, 252, 254);
+    display: flex;
+    flex-direction: column;
+    text-decoration: none;
+    
+  }
+}

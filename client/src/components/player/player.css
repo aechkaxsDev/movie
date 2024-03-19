@@ -1,0 +1,66 @@
+
+.navbar{    
+  width: 100%;
+  color: white;
+  font-size: 14px;
+  padding:0;
+  position: fixed;
+  top: 0;
+  background-color: var(--main-color);
+  
+}
+
+
+.layout{
+  position: fixed;
+  top:100px;
+  height: 90vh;
+
+
+ 
+
+
+  .menuLinks{
+    margin-left: 50px;
+  }
+  .container{
+      
+      margin-left: 50px;
+    .topContainer{
+      
+      .player{
+
+        .watch{
+          
+          video{
+            
+            height: 810px;
+            width: auto;
+            .videoPlayer{
+              
+            }
+          }
+        }
+      }
+
+    }
+
+    .bottomContainer{
+
+    }
+  }
+
+  
+  
+
+
+
+
+
+
+
+
+
+
+
+}

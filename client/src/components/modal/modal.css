@@ -1,0 +1,130 @@
+.modal {
+  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.2);
+  border-radius: 6px;
+  background-color: white;
+  padding: 1rem;
+  text-align: center;
+  width: 30rem;
+  height: 28rem;
+  z-index: 10;
+  position: fixed;
+  top: 20vh;
+  left: calc(50% - 15rem);
+  color: black;
+
+    .container{
+      margin-top: 20px;
+      text-align: center;
+      display: flex;
+      flex-direction: column;
+      position: relative;
+      
+      .header{
+        text-align: center;
+        font-size: large;
+        font-weight: bold;
+       
+      }
+
+     svg{
+        position: absolute;
+        background-color: gray;
+        color: white;
+        cursor: pointer;
+        top: -50px;
+        right: -35px;
+        border-radius: 10px;
+        font-size: 15px;
+        padding: 4px; 
+      }
+
+      .login{
+        top: 20px;
+        position: absolute;
+        padding-top: 20px;
+        padding-bottom: 20px;
+      
+          
+            p{
+              position: absolute;
+              color: rgb(109, 106, 106);
+              
+              left: 40px;
+              font-size: 11px;
+              
+              
+              
+            }
+          
+        
+         
+          .emailInput{
+            margin-bottom: 20px;
+            margin-top: 20px;
+            width: 380px;
+            font-size: 12px;
+            padding-left: 12px;
+            padding-right: 10px;
+            padding-top: 10px;
+            padding-bottom: 10px;
+          }
+
+      }
+      .bottom{
+        margin-top: 25px;
+        position: absolute;
+        left: 40px;
+        top: 190px;
+
+        .rememberMe{
+          position: relative;
+          display: flex;
+          align-items: center;
+          justify-content: space-between;
+          
+          input{
+
+          }
+          label{
+            left: 10px;
+            position: absolute;
+            margin-left: 5px;
+          }
+          .forgot{
+            position: absolute;
+            left: 280px;
+            right: 0;
+            color:var(--main-color)
+            
+          }
+          
+        }
+        .loginButton{
+          margin-top: 30px;
+          width: 400px;
+          height: 40px;
+          cursor: pointer;
+          background-color: var(--main-color);
+          border: none;
+          font-size: 16px;
+          color: white;
+          border-radius: 3px;
+        }
+      }
+
+      .register{
+        position: absolute;
+        left: 30px;
+        align-items: center;
+        top: 380px;
+        padding-left: 100px;
+        font-size: 16px;
+        
+
+        a{
+          text-decoration: none;
+          color: var(--main-color)
+        }
+      } 
+    }
+}
